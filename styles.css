@@ -30,18 +30,40 @@ padding:20px;
 background-color: var(--blue_card);
 border-radius: 10px;
 }
-.content img{width:300px;
+.equilibrium{width:310px;
 height:300px;
 border-radius: 8px;
+
+}
+.content{background-color: var(--Cyan);
+    height: 300px;
+    border-radius: 8px;
+    }
+
+
+.eye {position: absolute;
+    opacity:0;
+    top:32%;
+    left:48%;
+    width:20px;
+height:32px;}
+
+.content:hover .eye{opacity:1;}
+.content:hover .equilibrium{
+    opacity:.5;
+    cursor: pointer;
 }
 
-.content img:hover{src:"./"}
+
 h1{padding-top: 20px;
     font-size: 24px;
     color:var(--white);
     padding-bottom: 20px;
     font-weight: 600;
 }
+h1:hover{color:var(--Cyan);
+cursor: pointer;}
+
 p{color:var(--blue);
 padding-bottom: 20px;
 font-weight: 300;
@@ -92,6 +114,8 @@ padding-left: 10px;}
 
 .name{color:var(--white);
 padding-left: 5px;}
+.name:hover{color:var(--Cyan);
+cursor: pointer;}
 
 
    /*attribution styling */
