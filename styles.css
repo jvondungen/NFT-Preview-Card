@@ -122,5 +122,5 @@ cursor: pointer;}
     .attribution { font-size: 11px; text-align: center; 
         color:white;
     padding-top: 20px;}
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution a { color: var(--Cyan); }
   
